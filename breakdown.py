@@ -7,9 +7,12 @@ def split(a):
         a-=(i*x)
         print("{} * {} = {} {}".format(i,x,x*i,k))
 
-print"enter a value"
-x=int(raw_input())
-split(x)
+def main():
+    print"enter a value"
+    x=int(raw_input())
+    split(x)
 
 
 
+if __name__ == '__main__':
+    main()
