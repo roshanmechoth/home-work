@@ -3,10 +3,8 @@ def multi (x,y):
         print("{} * {} = {}".format(x,i,x*i))
 
 def main():
-    print "enter a number for multipilication table"
-    m=int(raw_input())
-    print"enter a limit"
-    n=int(raw_input())
+    m=int(raw_input("enter a number for multipilication table "))
+    n=int(raw_input("enter a limit" ))
     multi(m,n)
 
 
