@@ -1,5 +1,3 @@
-print"Enter a number"
-a=int(raw_input())
 def fizzbizz(num):
      for i in range(1,num+1):
             if i%15==0:
@@ -10,4 +8,12 @@ def fizzbizz(num):
                          print("bizz")
             else:
                          print(i)
-fizzbizz(a)
+
+def main():
+     print"Enter a number"
+     a=int(raw_input())
+     fizzbizz(a)
+
+
+if __name__ == '__main__':
+    main()
