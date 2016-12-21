@@ -1,0 +1,6 @@
+* General
+  - Don't use a single commit.
+  - Use good filenames
+
+* breakdown.py
+  - Not working
